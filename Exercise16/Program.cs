@@ -29,7 +29,7 @@
 
 // CreateAndFillArray(20, -9, 10);
 
-int[] newArray = new int[]{5, 10, 14, 5, 7, 5, 8, 5, 12, 4};           //как сюда передать значения из массива array созданного в методе?
+int[] newArray = new int[] { 5, 10, 14, 5, 7, 5, 8, 5, 12, 4 };           //как сюда передать значения из массива array созданного в методе?
 
 int k = 5;                     // нужно  сделать чтобы пользователь вводил к
 
@@ -38,11 +38,11 @@ int count = 0;
 int firstIndex = 0;
 int lastIndex = 0;
 while (index < newArray.Length)
-{    
+{
     if (newArray[index] == k)
     {
         count++;
-        
+
     }
     firstIndex = index;
     index++;
