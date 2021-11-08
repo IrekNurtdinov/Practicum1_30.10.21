@@ -19,16 +19,17 @@ while (index < A.Length)                       //заполняем массив
 }
 Console.WriteLine();
 
-index = 1;   // создаем массив В с исключением значений наруающих...
-int currentElement = A[0];
-Console.Write(currentElement);
-while (index < A.Length)
-{
-    if(A[index] > currentElement)
-    {
-        Console.Write($" {A[index]} ");
-        currentElement = A[index];
-    }
-    index++;
-}
+// index = 1;   // создаем массив В с исключением значений наруающих...
+// int currentElement = A[0];
+// Console.Write(currentElement);
+// while (index < A.Length)
+// {
+//     if(A[index] > currentElement)
+//     {
+//         Console.Write($" {A[index]} ");
+//         currentElement = A[index];
+//     }
+//     index++;
+// }
+
 
